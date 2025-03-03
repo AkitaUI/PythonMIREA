@@ -3,7 +3,7 @@ import heapq
 def dijkstra(check, start, goals):
     x0, y0 = start
     queue = []
-    heapq.heappush(queue, (0, x0, y0, []))  # (g, x, y, path)
+    heapq.heappush(queue, (0, x0, y0, []))
     visited = set()
 
     while queue:
